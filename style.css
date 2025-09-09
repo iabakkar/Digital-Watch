@@ -1,0 +1,84 @@
+* {
+    font-family: "Poppins";
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #2e2e45;
+    flex-direction: column;
+}
+
+body,
+.time,
+.left-side,
+.right-side,
+.right-top,
+.right-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    color: orange;
+    transform: translateY(-150px);
+}
+
+.digital-clock,
+.time,
+.right-side,
+.right-top,
+.right-down {
+    position: relative;
+}
+
+
+.digital-clock {
+    color: white;
+    background-color: #2d2f38;
+    width: 425px;
+    padding: 20px 45px;
+    box-shadow: 0px 5px 25px rgba(14, 21, 37, .8);
+    border-radius: 10px;
+}
+
+#hours {
+    font-size: 8em;
+    font-weight: 700;
+    padding: 0px 10px;
+    line-height: 125px;
+}
+
+.right-side {
+    flex-direction: column;
+}
+
+#dot {
+    font-size: 4em;
+    transform: translateY(-3px);
+    color: gray;
+}
+
+#minutes {
+    font-size: 5em;
+    font-weight: 500;
+    margin-left: 10px;
+    transform: translateY(10px);
+}
+
+.right-down {
+    margin-left: 10px;
+    transform: translateY(-25px);
+}
+
+#periods,
+#second {
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+#periods {
+    color: orange;
+}
